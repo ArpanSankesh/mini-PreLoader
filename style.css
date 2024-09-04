@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Climate+Crisis&family=Passion+One:wght@400;700;900&family=Permanent+Marker&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,4 +10,43 @@
 html, body {
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    background-color: #a0a0a0;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+nav div{
+    display: flex;
+    padding: 1em;
+    gap: 10em;
+}
+
+nav div a{
+    text-decoration: none;
+    color: #000;
+    font-family: "SUSE", sans-serif;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.header .h1{
+position: relative;
+font-family: "Climate Crisis", sans-serif;
+text-transform: uppercase;
+font-size: 20vw;
+color: #1a1a1a;
+line-height: 1.125;
 }
