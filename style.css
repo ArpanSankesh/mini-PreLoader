@@ -1,95 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Climate+Crisis&family=Passion+One:wght@400;700;900&family=Permanent+Marker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&family=Climate+Crisis&family=Passion+One:wght@400;700;900&family=Permanent+Marker&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background-color: #a0a0a0;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #a0a0a0;
 }
 
-nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
 }
 
-nav div{
-    display: flex;
-    padding: 1em;
-    gap: 10em;
+nav div {
+  display: flex;
+  padding: 1em;
+  gap: 10em;
 }
 
-nav div a{
-    text-decoration: none;
-    color: #000;
-    font-family: "SUSE", sans-serif;
+nav div a {
+  text-decoration: none;
+  color: #000;
+  font-family: "SUSE", sans-serif;
 }
 
-.header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 2em;
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
 }
 
-.header .h1{
-position: relative;
-font-family: "Climate Crisis", sans-serif;
-text-transform: uppercase;
-font-size: 20vw;
-color: #1a1a1a;
-line-height: 1.125;
+.header .h1 {
+  position: relative;
+  font-family: "Climate Crisis", sans-serif;
+  text-transform: uppercase;
+  font-size: 20vw;
+  color: #1a1a1a;
+  line-height: 1.125;
 }
 
-.hero{
-    position: relative;
-    width: calc(100vw - 4em);
-    height: 100%;
-    margin: 0 auto;
-    border-radius: 10px;
-    border: 4px solid #1a1a1a;
+.hero {
+  position: relative;
+  width: calc(100vw - 4em);
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 4px solid #1a1a1a;
 }
 
-.hero img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.overlay{
-    position: fixed;
-    width: 100vw;
-    height: 105vh;
-    z-index: 2;
-    display: flex;
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 105vh;
+  z-index: 2;
+  display: flex;
 }
 
-.bar{
-    width: 100%;
-    height: 100%;
-    background-color: #1a1a1a ;
+.bar {
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a;
 }
 
-.counter{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    z-index: 10000;
-    color: #a0a0a0;
-    padding: 3vw 7vw;
-    font-family: "Climate Crisis", sans-serif;
-    font-size: 15vw;
+.counter {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  z-index: 10000;
+  color: #a0a0a0;
+  padding: 3vw 7vw;
+  font-family: "Climate Crisis", sans-serif;
+  font-size: 15vw;
 }
