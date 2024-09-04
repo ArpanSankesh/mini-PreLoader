@@ -19,6 +19,7 @@ function startLoader() {
   }
   updateCounter();
 }
+
 startLoader();
 
 gsap.to(".counter", 0.25, {
@@ -35,7 +36,7 @@ gsap.to(".bar", 1.5, {
   ease: "power4.inOut",
 });
 
-gsap.from("h1", 1.5, {
+gsap.from(".h1", 1.5, {
   delay: 4,
   y: 700,
   stagger: {
