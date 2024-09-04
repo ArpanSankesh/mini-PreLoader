@@ -34,6 +34,12 @@ nav div a {
   text-decoration: none;
   color: #000;
   font-family: "SUSE", sans-serif;
+  z-index: 999;
+}
+
+nav div a:hover{
+    cursor: pointer;
+    border-bottom: 1px soild #000 ;
 }
 
 .header {
@@ -88,7 +94,7 @@ nav div a {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  z-index: 10000;
+  z-index: 998;
   color: #a0a0a0;
   padding: 3vw 7vw;
   font-family: "Climate Crisis", sans-serif;
